@@ -1,0 +1,14 @@
+The branch has many Admins and each admin can have 
+many Agents. Admin can maintain records of agents and also check premiums of 
+every customer. So, there is one to many relationship between “Admin” and 
+“Agent”. To link both tables Admin_id (Primary key of “Admin”) is a foreign key in 
+“Agent”. 
+
+
+Policy must satisfy these constraints according to Plan details :
+MMA >= Term + Holder’s Age
+Min_SA <= SA <= Max_SA
+Min_age <= Holder’s Age <= Max_age
+Mode of policy = Available in the mode of plan
+
+There is First Unpaid Premium (FUP) refers to the first default in paying the premium by the policyholder
